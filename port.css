@@ -7,7 +7,7 @@ h1 {
   font-size: 40px;
 }
 
-.name-highlight {
+.orange-highlight {
   color: rgb(238, 87, 32);
 }
 .half-width {
@@ -15,12 +15,16 @@ h1 {
   float: left;
   margin-top: 2%;
   margin-left: 8%;
-  padding-left: 2%;
+  padding-left: 1%;
 }
 
+p {
+  color: dimgray;
+}
 .half-width img {
-  width: 80%;
+  width: 90%;
   text-align: right;
+  top: 1%;
 }
 .top-banner {
   background-image: url("images/top-banner.png");
@@ -28,4 +32,44 @@ h1 {
 }
 section {
   height: 500px;
+  padding-bottom: 150px;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(247, 167, 20) rgb(245, 241, 20));
+  background-color: rgb(255, 168, 7);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 700;
+}
+.AnotherSec {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.single-block {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 50%;
+}
+.Experience {
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#left-box {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon, tomato);
+  border-image-slice: 1;
+}
+#right-box {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
 }
